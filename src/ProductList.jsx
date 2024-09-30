@@ -261,7 +261,6 @@ function ProductList() {
             ...prevState,
             [product.name]: true
         }));
-        alert(addedToCart);
     };
 
     return (
